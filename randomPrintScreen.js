@@ -6,5 +6,5 @@ function randomPrintScreen() {
     slug += String.fromCharCode(97 + Math.floor(Math.random() * 26));
   }
   slug += Math.floor(1000 + Math.random() * 9000);
-  return slug;
+  window.open(slug, '_blank');
 }
