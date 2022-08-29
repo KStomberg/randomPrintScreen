@@ -8,7 +8,7 @@ function randomPrintScreen() {
   let n3 = Math.floor(Math.random() * 9).toString();
   let n4 = Math.floor(Math.random() * 9).toString();
 
-  const randomString = l1+l2+n1+n2+n3+n4;
+  let randomString = l1+l2+n1+n2+n3+n4;
   
   return `https://prnt.sc/${randomString}`
 }
